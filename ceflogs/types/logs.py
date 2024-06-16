@@ -35,6 +35,9 @@ class ChatLog(Log):
     tag_background: Optional[str]
     tag: Optional[str]
 
+    # Admins
+    ticket_id: Optional[int]
+
 
 class NotificationElement(BaseModel):
     node: str
@@ -48,3 +51,9 @@ class NotificationLog(Log):
     timeout: int
     endtime: int
     percent: int
+
+
+class WhoReported(BaseModel):
+    name: str
+    id: int
+    cid: str

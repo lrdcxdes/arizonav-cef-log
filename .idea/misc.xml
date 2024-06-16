@@ -2,7 +2,7 @@
 <project version="4">
   <component name="Black">
     <option name="enabledOnReformat" value="true" />
-    <option name="sdkName" value="Python 3.11 (ceflogtest)" />
+    <option name="sdkName" value="Python 3.11 (arizonav-cef-log)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (ceflogtest)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (arizonav-cef-log)" project-jdk-type="Python SDK" />
 </project>
